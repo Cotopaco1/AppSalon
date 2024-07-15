@@ -1,0 +1,13 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.seccion{
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3){
+            display: none;
+        }
+
+    
+}
+
